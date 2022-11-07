@@ -27,6 +27,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: 🎁包发布
-        run: pnpm -r publish --no-git-checks
+        run: pnpm build && pnpm -r publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
