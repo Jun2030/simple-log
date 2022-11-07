@@ -35,10 +35,14 @@ import { Logger } from '@2030/simple-log';
 // CMD-引入方式三：
 // const { Logger } = require('@2030/simple-log');
 // IIFE-引入方式四：
-// <script src="" type="text/javascript"></script>
+// <script src="unpkg.com/browse/@2030/simple-log" type="text/javascript"></script>
 
 // 使用
 Logger.log("hello world");
+// IIFE使用
+SimpleLog.Logger.log("hello world");
+// 下载
+Logger.download();
 ```
 ## :basketball: API及配置
 ### 方法：
