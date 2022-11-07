@@ -1,7 +1,7 @@
 {
   "name": "@2030/simple-log",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "ZiJun's log utils for js/ts projects",
   "author": "Zi Jun <zijun2030@163.com>",
   "license": "MIT",
